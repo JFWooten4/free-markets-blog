@@ -27,3 +27,9 @@ stories on brother homerlsss, dorms flooded, school underwater etc etc
 uncle's family primarily homeless at present
 
 segway to roads riupped away; story of water at old house (explciitly reference schenery in [framing](https://youtu.be/OorZcltoaHE), [water](https://youtu.be/6cKOyjKpGxk), and [drowning](https://youtu.be/nuHkILqvkDw) per familial security implications very very lightly?)
+
+
+
+https://blog.block.science/introducing-neural-quorum-governance/
+https://blog.block.science/the-story-behind-neural-quorum-governance/
+https://medium.com/stellar-community/2-years-of-neural-quorum-governance-7bddd319a8cb
