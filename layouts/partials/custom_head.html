@@ -60,6 +60,15 @@
     width: min(80%, 80rem);
   }
 
+  main::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: inherit;
+    pointer-events: none;
+  }
+
   footer {
     position: relative;
     z-index: 1;
