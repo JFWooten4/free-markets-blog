@@ -1,17 +1,18 @@
+{{ if or .PrevInSection .NextInSection }}
 <div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
+  {{ if .PrevInSection }}
   <p>
-    {{ if .PrevInSection }}
     <a href="{{ .PrevInSection.Permalink }}">
       << Previous Post</a>
-        {{ else }}
-        <strike>
-          << Previous Post</strike>
-            {{ end }}
   </p>
-  {{ if .NextInSection }}
+  {{ end }}
+  {{ if and .PrevInSection .NextInSection }}
   <p>|</p>
+  {{ end }}
+  {{ if .NextInSection }}
   <p>
     <a href="{{ .NextInSection.Permalink }}">Next Post >></a>
   </p>
   {{ end }}
 </div>
+{{ end }}
