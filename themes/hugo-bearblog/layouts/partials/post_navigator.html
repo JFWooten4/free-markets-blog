@@ -8,12 +8,10 @@
           << Previous Post</strike>
             {{ end }}
   </p>
+  {{ if .NextInSection }}
   <p>|</p>
   <p>
-    {{ if .NextInSection }}
     <a href="{{ .NextInSection.Permalink }}">Next Post >></a>
-    {{ else }}
-    <strike>Next Post >></strike>
-    {{ end }}
   </p>
+  {{ end }}
 </div>
