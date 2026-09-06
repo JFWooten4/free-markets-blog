@@ -1,7 +1,7 @@
 baseURL = "https://john.xlm.domains"
 theme = "hugo-bearblog"
 
-title = "John Wooten"
+title = "Free Markets"
 author = "john.xlm"
 copyright = "CC BY-SA 4"
 languageCode = "en-US"
@@ -34,7 +34,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   title = "Free Markets"
-  description = "Taking our environment by the steering wheeel. 💜"
+  description = "Taking our environment by the steering wheel. 💙"
   favicon = "favicon.ico"
   images = ["icon.png"]
   
